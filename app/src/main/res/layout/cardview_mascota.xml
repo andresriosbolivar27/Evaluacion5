@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cvMascota"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_marginBottom="@dimen/activity_vertical_margin"
+    card_view:cardCornerRadius="@dimen/corner_radius_cardview"
+    android:padding="@dimen/activity_vertical_margin"
+    android:elevation="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <ImageView
+            android:id="@+id/imgFotoMascota"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:src="@drawable/mascota1">
+
+        </ImageView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin">
+
+            <ImageButton
+                android:id="@+id/btnLike"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/doglike">
+            </ImageButton>
+
+            <TextView
+                android:id="@+id/tvNombreMascota"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pnombre"
+                android:textSize="@dimen/nombre_cardview"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginLeft="2dp"
+                android:layout_gravity="center_vertical">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/tvContador"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/contador_cardview"
+                android:text="5"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginLeft="130dp"
+                android:layout_gravity="center_vertical">
+            </TextView>
+
+            <ImageButton
+                android:id="@+id/btnCountLike"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/countlike"
+                >
+            </ImageButton>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

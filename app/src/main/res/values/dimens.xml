@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="top">20dp</dimen>
+    <dimen name="left_texto">10dp</dimen>
+    <dimen name="activity_vertical_margin">8dp</dimen>
+    <dimen name="corner_radius_cardview">40dp</dimen>
+    <dimen name="contador_cardview">30sp</dimen>
+    <dimen name="nombre_cardview">25sp</dimen>
+    <dimen name="tamaño_fotos_perfil">40sp</dimen>
+</resources>

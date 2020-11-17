@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Evaluacion 5</string>
+    <string name="menu_contacto">Contacto</string>
+    <string name="menu_acerca">Acerca De</string>
+    <string name="pnombre">nombre</string>
+    <string name="pcontador"></string>
+    <string name="nombre">Andrés Felipe Ríos Bolívar</string>
+    <string name="carrera">Ingeniero de sistemas</string>
+    <string name="msg_confirm">Mensaje enviado correctamente</string>
+    <string name="msg_process">Enviando mensaje...</string>
+    <string name="msg_fail">El mensaje no se envio correctamente</string>
+    <string name="msg_load">Cargando...</string>
+
+
+</resources>
